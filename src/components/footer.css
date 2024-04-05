@@ -1,0 +1,76 @@
+/* Footer.css */
+
+.footer {
+    background-color: #6A44F2;
+
+    padding: 20px 0; /* Add some padding to the footer */
+  }
+  
+  .logo img {
+    width: 300px; /* Adjust the width of the logo */
+    height: 50px;
+  }
+  
+  .description, h4 {
+    color: #ffffff;
+    margin-top: 30px; /* Add some spacing between logo and description */
+  }
+  
+  .footer-links {
+    list-style: none;
+    color: #ffffff;
+    padding-left: 220px;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px; /* Add some spacing between links */
+  }
+  
+  .footer-links li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for mobile screens */
+    .footer {
+      text-align: center; /* Center align content on mobile */
+    }
+  
+    .logo {
+      margin-bottom: 20px; /* Add some spacing below logo on mobile */
+    }
+    .footer-links {
+        margin-top: 10px; /* Add margin-top to the list */
+        text-align: left; /* Align list items to the left */
+        padding-left: 20px; /* Add padding-left to the list */
+      }
+    
+      .footer-links li {
+        margin-left: 0; /* Remove margin-left for list items */
+      }
+    }
+    
+
+  .hr-white {
+    border-color: white; /* Set border color to white */
+    height: 10px;
+    border-width: 4px;
+  }
+  
+  .underline-words {
+    display: flex;
+    margin-right: 40px;
+    justify-content: center; 
+    margin-top: 10px; /* Add some space above the words */
+  }
+  
+  .underline-words span {
+    color: white; /* Set text color to white */
+    margin-right: 40px;
+    
+    text-decoration: none; /* Add underline to text */
+  }
+  .h4{
+    color: #ffffff;
+  }
